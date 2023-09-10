@@ -43,3 +43,5 @@ if (-not ([string]::IsNullOrEmpty($text))){
 	REG delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\"{35286a68-3c57-41a1-bbb1-0eae73d76c95}" /v $Videos /f
 }
 
+'done'
+Pause
